@@ -26,4 +26,4 @@ RUN make
 
 # Hardcoded args and bitcoin wallet in here. Not great but in a rush.
 
-CMD ./cpuminer -a cryptonight -o stratum+tcp://cryptonight.eu.nicehash.com:3355 -u 1KW1jDtPrFDn4QCedtJgSsAz4BmtLN7ma.${worker_label} 
+CMD ./cpuminer -a cryptonight -o stratum+tcp://cryptonight.usa.nicehash.com:3355 -u 1KW1jDtPrFDn4QCedtJgSsAz4BmtLN7ma.${worker_label} 
