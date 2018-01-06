@@ -9,7 +9,7 @@ Disclaimer: this software is provided with no warranty. Use at your own risk. If
 
 # Getting started
 
-The first step is to install Docker.  Instructions can be found [here].(https://docs.docker.com/engine/installation/#desktop)
+The first step is to install Docker.  Instructions can be found [here](https://docs.docker.com/engine/installation/#desktop).
 This will only take a few minutes.
 
 Check Docker is installed 
