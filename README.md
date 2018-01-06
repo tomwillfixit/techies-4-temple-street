@@ -1,6 +1,6 @@
 # techies-4-temple-street
 
-Twitter thread : https://twitter.com/Techies4TS/status/948896574419202050
+Background : https://twitter.com/Techies4TS/status/948896574419202050
 
 Based on https://github.com/alexellis/mine-with-docker from Docker Captain Alex Ellis.  
 
@@ -17,7 +17,7 @@ Check Docker is installed
 docker info
 ```
 
-I've created a wallet on behalf of Techies 4 Temple Street.  I'll share access to this wallet with someone from Techies 4 Temple Street to avoid the following ...
+I've created a wallet on behalf of Techies 4 Temple Street.  I'll share access to this wallet with someone from Techies 4 Temple Street to avoid ...
 
 ![ted](img/ted.jpg)
 
