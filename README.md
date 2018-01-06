@@ -21,23 +21,6 @@ I've created a wallet on behalf of Techies 4 Temple Street.  I'll share access t
 
 ![ted](img/ted.jpg)
 
-## Quick Start
-
-If you have no time to build the container image then you can run the following command and a pre-built image will be used.  This is the quickest, simpliest way to start donating. Simply replace the "replace_me" string in the command below with a unique identifier. This will allow you to track your donation.
-
-```
-	docker run -d \
-	--name techies \
-	--cpus="1" \
-	--cpuset-cpus="0" \
-	--restart="always" \
-	-e worker_label=replace_me \
-	thshaw/techies-4-temple-street
-
-```
-
-If you want to understand what is happening and learn a bit more about the Docker options being used then read on.
-
 ## Build container image
 ```
 make build
