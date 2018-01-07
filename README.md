@@ -53,7 +53,22 @@ The second way will just start the container with a default "t4ts" label.
 ```
 make start
 ```
+## Check CPU usage
 
+You can use a tool like top or htop to view the CPU usage.  Docker also has a useful command to show this info per container.
+```
+docker stats --no-stream techies 
+
+or
+
+docker stats techies
+
+Example Output :
+
+CONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             
+5e86990340b9        techies             100.44%             67.13MiB / 19.04GiB   0.34%               69.6kB / 12kB
+
+```
 ## Watch the logs
 ```
 make logs
