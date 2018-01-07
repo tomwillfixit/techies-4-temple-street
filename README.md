@@ -1,5 +1,7 @@
 # techies-4-temple-street
 
+"Now in its 4th year, join over 1,500 members of the Irish tech and business communities and take to the streets of Dublin for a unique treasure trail, combining outdoor activities with digital media challenges whilst making an impact to the lives of sick children across Ireland." http://www.techies4templestreet.ie/
+
 Background : https://twitter.com/Techies4TS/status/948896574419202050
 
 Based on https://github.com/alexellis/mine-with-docker from Docker Captain Alex Ellis.  
