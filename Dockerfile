@@ -24,6 +24,6 @@ RUN CFLAGS="-O3 -march=native -Wall" CXXFLAGS="$CFLAGS -std=gnu++11" ./configure
 
 RUN make
 
-# Hardcoded args and bitcoin wallet in here. Not great but in a rush.
+COPY miner.sh miner.sh
 
-CMD ./cpuminer -a cryptonight -o stratum+tcp://cryptonight.eu.nicehash.com:3355 -u 1KW1jDtPrFDn4QCedtJgSsAz4BmtLN7ma.${worker_label} 
+ENTRYPOINT ./miner.sh
